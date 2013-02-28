@@ -1,0 +1,185 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font: 20px/22px Arial, Tahoma, Verdana, sans-serif;
+	width: 100%;
+	font-weight:bold;
+}
+a {
+	color: #34166C;
+	outline: none;
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+	color: #A795C9;
+}
+p {
+	margin: 0 0 18px
+}
+img {
+	border: none;
+}
+input {
+	vertical-align: middle;
+}
+
+#wrapper {
+	background: url('../images/background.jpg');
+	background-repeat: repeat-x;
+	width:100%;
+}
+
+#middle {
+	margin-left:auto;
+	margin-right:auto;
+	width: 696px;
+	background-color:white;
+	min-height:580px;
+	text-align:center;
+}
+
+h1, h3  {
+	color: #2F1763;
+	padding:10px;
+}
+
+h3 {
+	font-size:18px;
+	font-weight:normal;
+}
+
+#splashmiddle {	
+	margin-left:auto;
+	margin-right:auto;
+	width:307px;
+	height: 201px;
+	background: url('../images/splash-middle.jpg');	
+}
+
+#splashbottom {	
+	margin-left:auto;
+	margin-right:auto;
+	width:199px;
+	height: 287px;
+	background: url('../images/splash-bottom.jpg');	
+}
+
+#bottom {	
+	margin-left:auto;
+	margin-right:auto;
+	padding-right:10px;
+	width: 209px;
+	height: 148px;
+	background: url('../images/bottom.jpg') no-repeat;
+	color: white;
+	font-size: 30px;
+
+}
+
+#bottom p {
+	padding-top: 60px;
+}
+
+#footer {
+	background: url('../images/moviebottom.jpg');	
+	width: 672px;
+	height: 144px;
+	padding-left: 23px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.footerframe {
+	width: 129px;
+	height: 144px;
+	float: left;
+	text-align: center;
+	vertical-align:middle;
+	font-size: 22px;
+}
+
+
+
+.footerframe p {
+	padding-top: 60px;
+}
+
+
+#content {
+	width: 696px;
+	min-height: 200px;
+	text-align: left;
+}
+
+#moviecontainer {
+	width: 952px;
+	height: 291px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.movieframe { 
+	width: 178px;
+	height: 251px;
+	background: url('../images/movieframe.jpg');	
+	float:left;
+	color: white;
+	text-align: center;
+	padding:40px 30px 0px 30px;
+}
+
+#packagesWrapper {
+	width: 2000px;
+}
+
+#packagesLeft, #packagesRight {
+	width: 281px;
+	height: 421px;
+}
+
+#packagesLeft {
+	background: url('../images/packagesleft.jpg');
+	float: left;
+	margin-left: -105px;
+}
+
+#packagesRight {
+	background: url('../images/packagesright.jpg');
+	float: left;
+}
+
+#packagesTC, #packagesBottom {
+	text-align: center;
+	font-weight: normal;
+}
+
+#packagesTC {
+	float:left;
+	width: 350px;
+	padding-top:200px;
+}
+
+#packagesBottom {
+	padding: 450px 0px 30px 0px;
+}
+
+.movieframe a {
+	color:white;
+	text-decoration: none;
+} 
+
+h2 {
+	padding-bottom: 20px;
+}
+
+#contact table {
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#contact td {
+	padding: 10px;
+}

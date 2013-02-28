@@ -1,0 +1,119 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font: 20px/22px Arial, Tahoma, Verdana, sans-serif;
+	width: 100%;
+	font-weight:bold;
+	background: url('../images/background.jpg');
+}
+a {
+	color: blue;
+	outline: none;
+	text-decoration: underline;
+}
+a:hover {
+	text-decoration: none;
+}
+p {
+	margin: 0 0 18px
+}
+img {
+	border: none;
+}
+input {
+	vertical-align: middle;
+}
+#wrapper {
+	width: 1000px;
+	margin: 0 auto;
+	background: url('../images/background.jpg');
+}
+
+
+/* Header
+-----------------------------------------------------------------------------*/
+#header {
+	height: 249px;
+	color:white;
+}
+
+#headerleft {
+	width:339px;
+	background-image: url('../images/topleft.jpg');
+	height:249px;
+	float:left;
+
+}
+
+#headerright, #headertext, #slogan {
+	width:640px;
+}
+
+#headerright {
+	float:left;
+	height: 249px;
+}
+
+#headertext {
+	background-image: url('../images/header.jpg');
+	height:111px;
+}
+
+#slogan {
+	background-image: url('../images/slogan.jpg');
+	height: 61px;
+}
+
+#left {
+	width:285px;
+	height: 500px;
+	background-image: url('../images/left.jpg');
+	background-repeat: 	no-repeat;
+	float: left;
+}
+
+.row {
+	width: 695px;
+	height: 150px;
+	float: left;
+	margin-bottom: 40px;
+	margin-left: 20px;
+}
+
+#packages, #contact, #gallery, #blog {
+	margin: 20px;
+	float: left;
+}
+
+#packages {
+	width: 320px;
+	height: 143px;
+	background-image: url('../images/packages.jpg');
+}
+
+#contact {
+	width: 287px;
+	height: 143px;
+	background-image: url('../images/contact.jpg');
+}
+
+#gallery {
+	width: 320px;
+	height: 148px;
+	background-image: url('../images/gallery.jpg');
+}
+
+#blog {
+	width: 220px;
+	height: 148px;
+	background-image: url('../images/blog.jpg');
+}
+
+/* Footer
+-----------------------------------------------------------------------------*/
+#footer {
+	height: 20px;
+	background: black;
+}

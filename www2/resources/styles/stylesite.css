@@ -1,0 +1,137 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font: 14px/16px Arial, Tahoma, Verdana, sans-serif;
+	width: 100%;
+	background: url('../images/background.jpg');
+	color: white;
+}
+a {
+	color: blue;
+	outline: none;
+	text-decoration: underline;
+}
+a:hover {
+	text-decoration: none;
+}
+p {
+	margin: 0 0 18px
+}
+img {
+	border: none;
+}
+input {
+	vertical-align: middle;
+}
+#wrapper {
+	width: 1000px;
+	margin: 0 auto;
+	background: url('../images/background.jpg');
+}
+
+#headerleft{
+	width: 202px;
+	height: 123px;
+	background: url('../images/site/headerleft.jpg');
+	float:left;
+	background-color:black;
+}
+
+#subject {
+	width: 798px;
+	height: 123px;
+	text-align:center;
+	background-color:black;
+	float:left;
+}
+
+#subject img {
+	margin: auto;
+	padding-top: 20px;
+}
+
+
+#left {
+	width: 240px;
+	text-align:center;
+	color:white;
+	float:left;
+}
+
+#menu {
+
+	background-color:black;
+	padding-bottom: 30px;
+	padding-top: 40px;
+	padding-left:10px;
+	padding-right:10px;
+	margin-bottom: 10px;
+}
+
+#home, #gallery, #contact, #blog, #packages {
+	margin: auto;
+	width: 180px;
+	height: 80px;
+}
+
+#message {
+	margin-left: auto;
+	margin-right: auto;
+	width: 184px;
+	height: 62px;
+	margin-top: 150px;
+	background-image: url('../images/site/message.jpg');
+}
+
+#home {
+	background: url('../images/site/home.jpg') no-repeat;
+}
+
+#gallery {
+	background: url('../images/site/gallery.jpg') no-repeat;
+}
+
+#contact {
+	background: url('../images/site/contact.jpg') no-repeat;
+}
+
+#blog {
+	background: url('../images/site/blog.jpg') no-repeat;
+}
+
+#packages {
+	background: url('../images/site/packages.jpg') no-repeat;
+}
+
+#center {
+	float: left;
+	width: 755px;
+}
+
+#center p, #center table {
+	margin-left: 100px;
+	border-spacing:0;
+    border-collapse:collapse;
+}
+
+#center td, #center th {
+	margin-left: 100px;
+	padding: 10px;
+}
+
+#center th {
+	border-bottom: 5px solid white;
+	font-weight: bold;
+	text-align: left;
+}
+
+.spacer {
+	height:40px;
+	width:100%;
+}
+
+#contactdetails {
+	margin-left: 30px;
+}
